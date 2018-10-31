@@ -27,9 +27,9 @@ public class Process {
 	
 	public double getPay() {
 		double pay = 0;
-		if(this.sales>50000) {
+		if(this.sales>100000) {
 			pay=this.salary+(this.sales*0.03);
-		}else if(this.sales>25000){
+		}else if(this.sales>50000){
 			pay=this.salary+(this.sales*0.02);
 		}else if(this.sales>0) {
 			pay=this.salary+(this.sales*0.01);
