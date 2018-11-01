@@ -36,6 +36,11 @@ public class Process {
 		}else {
 			pay = 0;
 		}
+		
+		if(this.salary<15000 && this.sales>100000) {
+			pay = pay+3000;
+		}
+		
 		return pay;
 	}
 
